@@ -4,11 +4,11 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Sabari Ajay Kumar'
 SITENAME = u'Think of Code'
-SITEURL = ''
+SITEURL = 'http://thinkofcode.com'
 
 PATH = 'content'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'America/Los_Angeles'
 
 DEFAULT_LANG = u'en'
 
@@ -19,15 +19,9 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
-
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('twitter', 'http://twitter.com/sabariajay'),
+          ('github', 'http://github.com/sabariajay'),)
 
 DEFAULT_PAGINATION = 10
 
